@@ -17,7 +17,7 @@ AUT/Tokens POST istediğinde bulunulur.
   "client_id": "86e3cd3cc66a44159e552686dbfe885f", 
   "client_secret": "d3850652c6d64c889e9ae5fdb0fb9e07",  
   "username": "SISTEM",
-  "password": "Deumuhet35@"
+  "password": "Deu35muh@"
 }
 ```
 
