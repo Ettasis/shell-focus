@@ -15,8 +15,7 @@ AUT/Tokens POST istediğinde bulunulur.
 {
   "grant_type": "password",
   "client_id": "86e3cd3cc66a44159e552686dbfe885f", 
-  "client_secret": "d3850652c6d64c889e9ae5fdb0fb9e07", 
-  "refresh_token": null,
+  "client_secret": "d3850652c6d64c889e9ae5fdb0fb9e07",  
   "username": "SISTEM",
   "password": "Deumuhet35@"
 }
@@ -28,9 +27,7 @@ AUT/Tokens POST istediğinde bulunulur.
   "grant_type": "refresh_token",
   "client_id": "86e3cd3cc66a44159e552686dbfe885f", 
   "client_secret": "d3850652c6d64c889e9ae5fdb0fb9e07", 
-  "refresh_token": "KULLANICI ADI VE ŞİFRE İLE ALINAN TOKEN",
-  "username": null,
-  "password": null
+  "refresh_token": "KULLANICI ADI VE ŞİFRE İLE ALINAN TOKEN"
 }
 ```
 
