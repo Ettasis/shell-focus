@@ -6,7 +6,7 @@ Sunucu üzerinde keşif yaparak, focus uygulamasını besleyecek shell dosyalar�
 ## API oAuth2.0 Entegrasyon işlemi
 
 env: Test
-url: https://focus.qa.ettasis.com/
+url: https://focus.api.qa.ettasis.com/
 
 AUT/Tokens POST istediğinde bulunulur.
 
