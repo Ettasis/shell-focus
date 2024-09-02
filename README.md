@@ -6,6 +6,7 @@ Sunucu üzerinde keşif yaparak, focus uygulamasını besleyecek shell dosyalar�
 ## API oAuth2.0 Entegrasyon işlemi
 
 env: Test
+swagger: https://focus.api.qa.ettasis.com/swagger/index.html
 url: https://focus.api.qa.ettasis.com/
 
 AUT/Tokens POST istediğinde bulunulur.
@@ -44,17 +45,7 @@ guid bilgisine 'currentUser' gönderilecek
 ```
 USR/Kullanicilar 'currentUser' ile çağrıldığında gelecek.
 ```
-
-## Oturuma ait bilgilerin sunucuya gönderilmesi
-
-AUT/Sessions PUT isteğinde bulunulur. Guid olarak 'currentUser' gönderilir 
-
-```
-{
-  "pushNotificationCode": "string"
-}
-```
-
+ 
 ## Header bilgisi
 
 Yetkisiz çağırım
@@ -63,10 +54,10 @@ Yetkisiz çağırım
 "Access-Control-Allow-Origin": "*"
 ```
 
-Yetkili çağırım
+Yetkili çağırım -> Apiden veri alırken kullanılacak istek
 ```
 "Content-Type": "application/json;charset=UTF-8"
 "Access-Control-Allow-Origin": "*"
-Authorization: TOKEN
+Authorization: Bearer TOKEN
 ScreenName: IstekYapilanEkranKodu,
 ```
