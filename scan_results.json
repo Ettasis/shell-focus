@@ -1,0 +1,28 @@
+[
+{
+      "domain": "ktu.edu.tr",
+      "ip": "193.140.168.103",
+      "ports": [
+  {
+    "port": "80/tcp",
+    "service": "http",
+    "version": "Apache httpd"
+  },
+  {
+    "port": "113/tcp",
+    "service": "ident",
+    "version": "113/tcp closed ident"
+  },
+  {
+    "port": "443/tcp",
+    "service": "ssl/http",
+    "version": "Apache httpd"
+  },
+  {
+    "port": "8008/tcp",
+    "service": "http?",
+    "version": "8008/tcp open http?"
+  }
+]
+    }
+]
