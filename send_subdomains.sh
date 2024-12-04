@@ -25,3 +25,5 @@ while IFS= read -r subdomain; do
     fi
 done < "$input_file"
 
+# 1- dosyayı indirdikten sonra terminalde chmod +x send_subdomains.sh yazıyoruz
+# 2- ./send_subdomains.sh yazarak çalıştırıyoruz subdomains.txt'ye daha önceden yazdırdığımız subdomainleri apimize gönderiyor
